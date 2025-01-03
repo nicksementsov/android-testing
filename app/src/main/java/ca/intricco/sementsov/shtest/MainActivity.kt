@@ -83,8 +83,6 @@ class MainActivity : ComponentActivity() {
         } else {
             initializeDriveService(account)
         }
-
-
     }
 
     private fun createGoogleSignInClient() {
